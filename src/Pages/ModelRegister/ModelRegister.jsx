@@ -41,7 +41,7 @@ const ModelRegister = () => {
           </a>
         </div>
       </div>
-      <div className='side_background'></div>
+      <div className='model_side_background'></div>
     </div>
   )
 }

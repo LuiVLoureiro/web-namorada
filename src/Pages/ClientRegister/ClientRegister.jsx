@@ -40,7 +40,7 @@ const ClientRegister = () => {
           </a>
         </div>
       </div>
-      <div className='side_background'></div>
+      <div className='client_side_background'></div>
     </div>
   )
 }

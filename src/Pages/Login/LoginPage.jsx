@@ -30,7 +30,7 @@ const LoginPage = () => {
           </a>
         </div>
       </div>
-      <div className='side_background'></div>
+      <div className='login_side_background'></div>
     </div>
   )
 }
