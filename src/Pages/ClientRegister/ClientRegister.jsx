@@ -12,11 +12,11 @@ const ClientRegister = () => {
         <h1>criar conta</h1>
         <p>Crie uma conta para entrar no melhor site de webnamoro da internet</p>
         <form>
-          <input type="email" name="email" id="email" placeholder='Digite seu email...' />
-          <input type="text" name="name" id="name" placeholder='Digite seu nome completo...' />
-          <input type="password" name="password" id="password" placeholder='Digite sua senha...' />
-          <input type="password" name="password" id="password" placeholder='Confirme sua senha...' />
-          <input type="number" name="phonenumber" id="phonenumber" placeholder='Seu Celular ou Telefone...' />
+          <input type="email" name="email" required id="email" placeholder='Digite seu email...' />
+          <input type="text" name="name" required id="name" placeholder='Digite seu nome completo...' />
+          <input type="password" name="password" required id="password" placeholder='Digite sua senha...' />
+          <input type="password" name="password" required id="password" placeholder='Confirme sua senha...' />
+          <input type="number" name="phonenumber" required id="phonenumber" placeholder='Seu Celular ou Telefone...' />
             <div className='termos-privacidade'>
                 <input type="checkbox" name="termos-privacidade" id="termos-privacidade" required/>
                 <label htmlFor="termos-privacidade">

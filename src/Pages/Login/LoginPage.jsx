@@ -12,8 +12,8 @@ const LoginPage = () => {
         <h1>Login</h1>
         <p>Faça o login para entrar no melhor site de webnamoro da internet</p>
         <form>
-          <input type="email" name="email" id="email" placeholder='Digite seu email' />
-          <input type="password" name="password" id="password" placeholder='Digite sua senha' />
+          <input type="email" name="email" required id="email" placeholder='Digite seu email' />
+          <input type="password" name="password" required id="password" placeholder='Digite sua senha' />
           <input type="submit" value="Entrar" />
         </form>
         <div className='login_ways'>
