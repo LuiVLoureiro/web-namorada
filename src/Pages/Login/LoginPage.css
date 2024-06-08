@@ -68,7 +68,7 @@
 }
 
 .login_wrapper input[type="submit"]:hover{
-    background-color: #292929;
+    background-color: transparent;
     color: #FFC107;
 }
 

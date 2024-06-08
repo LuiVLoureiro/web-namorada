@@ -10,6 +10,7 @@ import LoginPage from './Pages/Login/LoginPage';
 import ErrorPage from './Pages/ErrorPage/ErrorPage';
 import ClientRegister from './Pages/ClientRegister/ClientRegister';
 import ModelRegister from './Pages/ModelRegister/ModelRegister';
+import Explore from './Pages/Explore/Explore';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: '/model-register',
     element: <ModelRegister />
+  },
+  {
+    path: '/explore',
+    element: <Explore />
   }
 ])
 
