@@ -9,7 +9,8 @@ import facebook from '../../images/facebook.svg'
 const LoginPage = () => {
   const navigate = useNavigate()
 
-  const navigateToExplore = () => {
+  const navigateToExplore = (e) => {
+    e.preventDefault()
     navigate('/explore/');
   }
 
