@@ -64,12 +64,24 @@
     margin: 0 auto;
     transition: .3s;
     border: 1px solid #FFC107;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .login_wrapper input[type="submit"]:hover{
     background-color: transparent;
     color: #FFC107;
+}
+
+.new-users {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 30px;
+}
+
+.new-users a {
+    color: #FFC107;
+    font-size: 12px;
 }
 
 .login_wrapper .login_ways {
