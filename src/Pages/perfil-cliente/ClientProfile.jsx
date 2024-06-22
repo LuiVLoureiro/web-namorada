@@ -5,9 +5,9 @@ import user from '../../images/user-profile-img.png'
 import SideBar from '../../components/SideBar/SideBar'
 import LastOrderCard from '../../components/LastOrderCard/LastOrderCard'
 import TimeCard from '../../components/TimeCard/TimeCard'
-import FavoriteModelCard from '../../components/FavoriteModelCard/FavoriteModel'
-import './ClientProfile.css'
 import FavoriteModel from '../../components/FavoriteModelCard/FavoriteModel'
+
+import './ClientProfile.css'
 
 const ClientProfile = () => {
   return (

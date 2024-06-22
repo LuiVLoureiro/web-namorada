@@ -1,14 +1,17 @@
+/* Estilos existentes */
 .explore_client {
     display: flex;
 }
 
 .explore_left_client {
-    width: 17%;
+    width: 335px;
+    position: fixed;
 }
 
 .explore_right_client {
-    width: 84%;
+    margin-left: 335px; 
     padding: 45px 35px 20px 35px;
+    width: calc(100% - 335px);
 }
 
 .planos {
@@ -18,14 +21,25 @@
     gap: 68px;
 }
 
-@media (max-width: 1280px) {
+/* Consultas de mídia para tablets */
+@media (max-width: 768px) {
+    .explore_client {
+        display: block;
+    }
 
     .explore_left_client {
-        width: 335px;
+        width: 100%;
+        position: relative;
+        margin-bottom: 20px;
     }
-    
+
     .explore_right_client {
-        width: 74%;
-        padding: 45px 35px 20px 35px;
+        margin-left: 0;
+        width: 100%;
+        padding: 20px; 
+    }
+
+    .planos {
+        gap: 20px;
     }
 }

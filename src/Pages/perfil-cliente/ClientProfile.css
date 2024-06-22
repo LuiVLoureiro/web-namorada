@@ -20,7 +20,7 @@
     align-items: center;
 }
 
-.profile img{
+.profile img {
     width: 140px;
 }
 
@@ -69,4 +69,67 @@
     background-color: transparent;
     color: #FFC107;
     border-color: #FFC107;
+}
+
+/* Consultas de mídia para tablets */
+@media (max-width: 1580px) {
+    .explore_client {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .explore_right_client {
+        margin-left: 335px; /* Ajuste para acomodar a sidebar fixa */
+        padding: 0 15px; /* Adicionar padding para melhorar o layout */
+    }
+
+    .profile_wrapper {
+        gap: 30px;
+        width: 100%;
+    }
+
+    .info_wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .profile {
+        margin-top: 32px;
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    .profile p {
+        padding: 15px 20px;
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .client_info {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .client_info p {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 8px;
+    }
+
+    .edit_btn {
+        align-self: center;
+        margin-top: 15px;
+    }
+
+    .order_info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 32px;
+    }
 }

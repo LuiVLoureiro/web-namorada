@@ -26,7 +26,6 @@ const LoginPage = () => {
         </form>
         <div className='new-users'>
           <a href="/client-register/">Novo por aqui? Cadastre-se como usuário</a>
-          <a href="/model-register/">Nova por aqui? Cadastre-se como modelo</a>
         </div>
         <div className='login_ways'>
           <hr />
