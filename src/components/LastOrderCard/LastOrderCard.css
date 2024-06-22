@@ -1,0 +1,50 @@
+
+.order_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 54px;
+    background-color: #292929;
+    border-radius: 15px;
+}
+
+.last_payment {
+    font-weight: 300;
+    color: #fff;
+    font-size: 32px;
+    border-bottom: 1px solid #FFC107;
+    padding-bottom: 5px;
+}
+
+.last_payment_price {
+    color: #FFC107;
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.order_info {
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order_card a{
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #292929;
+    background-color: #FFC107;
+    padding: 5px 32px;
+    border-radius: 999px;
+    font-weight: bold;
+    margin-top: 5px;
+    border: 1px solid transparent;
+    transition: 0.5s;
+}
+
+.order_card a:hover {
+    background-color: transparent;
+    color: #FFC107;
+    border-color: #FFC107;
+}

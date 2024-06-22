@@ -1,0 +1,61 @@
+.plan_card {
+    background-color: #292929;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 365px;
+}
+
+.minutes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FFC107;
+    height: 85px;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #000;
+}
+
+.plan_caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 54px;
+}
+
+.plan_caption p {
+    color: #FFC107;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 48px;
+}
+
+.plan_description {
+    font-size: 18px;
+}
+
+.assign-btn {
+    font-size: 18px;
+    text-decoration: none;
+    color: #292929;
+    background-color: #FFC107;
+    padding: 5px 32px;
+    border-radius: 999px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 58px;
+    border: 1px solid transparent;
+    transition: 0.5s;
+}
+
+.assign-btn:hover {
+    background-color: transparent;
+    color: #FFC107;
+    border-color: #FFC107;
+}

@@ -1,0 +1,31 @@
+.explore_client {
+    display: flex;
+}
+
+.explore_left_client {
+    width: 17%;
+}
+
+.explore_right_client {
+    width: 84%;
+    padding: 45px 35px 20px 35px;
+}
+
+.planos {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 68px;
+}
+
+@media (max-width: 1280px) {
+
+    .explore_left_client {
+        width: 335px;
+    }
+    
+    .explore_right_client {
+        width: 74%;
+        padding: 45px 35px 20px 35px;
+    }
+}
