@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     width: 365px;
+    border-radius: 15px;
 }
 
 .minutes {
@@ -12,6 +13,8 @@
     align-items: center;
     text-align: center;
     background-color: #FFC107;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     height: 85px;
     font-size: 36px;
     text-transform: uppercase;

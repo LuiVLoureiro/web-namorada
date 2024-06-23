@@ -79,8 +79,8 @@
     }
 
     .explore_right_client {
-        margin-left: 335px; /* Ajuste para acomodar a sidebar fixa */
-        padding: 0 15px; /* Adicionar padding para melhorar o layout */
+        margin-left: 335px;
+        padding: 0 15px;
     }
 
     .profile_wrapper {

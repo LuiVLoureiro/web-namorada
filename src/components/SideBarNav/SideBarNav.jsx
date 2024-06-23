@@ -5,12 +5,12 @@ import './SideBarNav.css'
 const SideBarNav = () => {
   return (
     <div className='navbar'>
-        <a href="#">modelos</a>
-        <a href="#">planos</a>
-        <a href="#">perfil</a>
-        <a href="#">mensagens</a>
-        <a href="#">configurações</a>
-        <a href="#">suporte</a>
+        <a href="/explore/">modelos</a>
+        <a href="/planos/">planos</a>
+        <a href="/perfil-cliente/">perfil</a>
+        <a href="/chat/">mensagens</a>
+        <a href="/configuracao-cliente/">configurações</a>
+        <a href="/suporte/">suporte</a>
     </div>
   )
 }

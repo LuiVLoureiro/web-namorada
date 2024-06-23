@@ -7,7 +7,7 @@ const FavoriteModel = () => {
         <div className='order_card'>
             <p className='favorite_model_title'>Modelo Favorita:</p>
             <p className='favorite_model'>Beatriz</p>
-            <a href="#">ver planos</a>
+            <a href="/planos/">ver planos</a>
         </div>
     )
 }

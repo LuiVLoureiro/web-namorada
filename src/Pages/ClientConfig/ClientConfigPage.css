@@ -1,0 +1,79 @@
+.explore_right_client {
+    display: flex;
+    justify-content: center;
+}
+
+.config_card h4 {
+    background-color: #FFC107;
+    color: #1B1B1B;
+    font-size: 24px;
+    font-weight: bold;
+    align-self: center;
+    padding: 5px 14px;
+    text-transform: uppercase;
+    border-radius: 999px;
+    margin-bottom: 52px;
+}
+
+.config_card {
+    margin-top: 100px;
+    background-color: #292929;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 36px;
+    padding-bottom: 52px;
+}
+
+.config {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #FFC107;
+    padding: 10px 0;
+}
+
+.config_card img {
+    width: auto;
+    opacity: 0.3;
+    margin-right: 10px;
+}
+
+.config_card p {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+
+.config_card a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #FFC107;
+    background: #1B1B1B;
+    padding: 5px 32px;
+    border-radius: 999px;
+    opacity: 0.5;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.config a:hover {
+    opacity: 1;
+}
+
+/* Consultas de mídia para tablets */
+@media (max-width: 1580px) {
+    .explore_client {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .explore_right_client {
+        margin-left: 335px;
+        padding: 0 15px;
+}
+}

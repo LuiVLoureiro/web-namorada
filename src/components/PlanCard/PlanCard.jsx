@@ -10,7 +10,7 @@ const PlanCard = ({minutes, price, description}) => {
             <p className='price'>R$ {price}</p>
             <p className='plan_description'>{description}</p>
             <a className='
-            assign-btn' href="#">Assinar</a>
+            assign-btn' href="/planos/">Assinar</a>
         </div>
     </div> 
   )

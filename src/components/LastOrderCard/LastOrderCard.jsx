@@ -7,7 +7,7 @@ const LastOrderCard = () => {
         <div className='order_card'>
             <p className='last_payment'>Ultimo Pagamento:</p>
             <p className='last_payment_price'>R$ 10,00</p>
-            <a href="#">ver planos</a>
+            <a href="/planos/">ver planos</a>
         </div>
     )
 }

@@ -13,6 +13,7 @@ import ModelRegister from './Pages/ModelRegister/ModelRegister';
 import Explore from './Pages/Explore/Explore';
 import Planos from './Pages/Planos/Planos';
 import ClientProfile from './Pages/perfil-cliente/ClientProfile';
+import ClientConfigPage from './Pages/ClientConfig/ClientConfigPage';
 
 const router = createBrowserRouter([
   {
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
   {
     path: '/perfil-cliente',
     element: <ClientProfile />
+  },
+  {
+    path: '/configuracao-cliente',
+    element: <ClientConfigPage />
   }
 ])
 
