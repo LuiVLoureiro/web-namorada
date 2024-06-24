@@ -1,0 +1,65 @@
+.message_sender {
+    position: fixed;
+    bottom: 50px;
+    left: 60%;
+    transform: translateX(-50%);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 22px;
+    background-color: #FFC107;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.file_input {
+    margin-right: 10px;
+    display: none;
+    /* Oculta o input de arquivo */
+}
+
+.file_icon {
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.text_input {
+    background-color: transparent;
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 25px;
+    text-indent: 10px;
+}
+
+.send_button {
+    background-color: #292929;
+    color: #FFC107;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    padding: 5px;
+    font-size: 28px;
+    border: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.send_button:hover {
+    background-color: #FFC107;
+    color: #292929;
+    border: 2px solid #292929;
+}
+
+@media (max-width: 1280px) {
+    .message_sender {
+        position: fixed;
+        bottom: 50px;
+        left: 70%;
+        transform: translateX(-50%);
+    }    
+}

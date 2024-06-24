@@ -3,6 +3,7 @@ import ClientMessage from '../ClientMessage/ClientMessage'
 import ModelMessage from '../ModelMessage/ModelMessage'
 
 import './ChatComponent.css'
+import MessageSender from '../MessageSender/MessageSender'
 
 const ChatComponent = () => {
   return (
@@ -11,6 +12,11 @@ const ChatComponent = () => {
       mais colorido só para nós."' />
       <ClientMessage time='16 min' text='"Eu reparo sim, é como se o mundo inteiro ficasse mais belo quando estou ao seu lado. 
       Cada momento com você é especial."' />
+      <ModelMessage time='17 min' text='"Você já reparou como o pôr do sol é bonito quando estamos juntos? Parece que o céu fica ainda 
+      mais colorido só para nós."' />
+      <ClientMessage time='16 min' text='"Eu reparo sim, é como se o mundo inteiro ficasse mais belo quando estou ao seu lado. 
+      Cada momento com você é especial."' />
+      <MessageSender />
     </div>
   )
 }

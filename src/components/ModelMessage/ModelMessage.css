@@ -37,7 +37,7 @@
 
 .model_message span {
     font-size: 12px;
-    text-align: right;
+    text-align: left;
     margin-bottom: 6px;
 }
 
