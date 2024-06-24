@@ -14,6 +14,8 @@ import Explore from './Pages/Explore/Explore';
 import Planos from './Pages/Planos/Planos';
 import ClientProfile from './Pages/perfil-cliente/ClientProfile';
 import ClientConfigPage from './Pages/ClientConfig/ClientConfigPage';
+import SuportePage from './Pages/SuportPage/SuportePage';
+import ChatPage from './Pages/Chat/ChatPage';
 
 const router = createBrowserRouter([
   {
@@ -26,7 +28,7 @@ const router = createBrowserRouter([
     element: <LoginPage />
   },
   {
-    path: '/client-register',
+    path: '/client-registro',
     element: <ClientRegister />
   },
   {
@@ -48,6 +50,14 @@ const router = createBrowserRouter([
   {
     path: '/configuracao-cliente',
     element: <ClientConfigPage />
+  },
+  {
+    path: '/suporte',
+    element: <SuportePage />
+  },
+  {
+    path: '/chat',
+    element: <ChatPage />
   }
 ])
 

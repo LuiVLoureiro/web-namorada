@@ -1,0 +1,48 @@
+.model_message_wrapper {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 22px;
+}
+
+.model_message_wrapper img {
+    width: 52px;
+    position: relative;
+    top: -40px;
+    right: 22px;
+}
+
+.model_img_wrapper {
+    position: relative;
+}
+
+.model_img_wrapper svg {
+    position: absolute;
+    left: 15px;
+    color: #14FF2C;
+}
+
+.model_message {
+    position: relative;
+}
+
+.model_message {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFC107;
+    padding: 16px 22px;
+    border-radius: 15px;
+}
+
+.model_message span {
+    font-size: 12px;
+    text-align: right;
+    margin-bottom: 6px;
+}
+
+.model_message p {
+    font-size: 18px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
