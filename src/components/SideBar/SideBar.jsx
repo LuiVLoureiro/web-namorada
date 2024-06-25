@@ -14,21 +14,23 @@ import './SideBar.css'
 import SideBarNav from '../SideBarNav/SideBarNav'
 
 
-const SideBar = () => {
+const  SideBar = ({handleModelos, handlePlanos, handlePerfil, handleMessages, handleConfig, handleSuporte}) => {
   return (
     <div>
         <div id='sidebar' className='sidebar'>
             <div className='top-sidebar'>
                 <div className='logo_wrapper'>
-                    <img src={LogoImg} alt="Logo img" />
-                    <img src={LogoText} alt="Logo text" />
+                    <a href="/explore/">
+                        <img src={LogoImg} alt="Logo img" />
+                        <img src={LogoText} alt="Logo text" />
+                    </a>
                 </div>
                 <div className='user_profile'>
                     <img src={user} alt="user img" />
                     <p>user_name</p>
                     <img src={arrowDown} alt="arrow-down" />
                 </div>
-                <SideBarNav />
+                <SideBarNav modelos={`${handleModelos}`} planos={`${handlePlanos}`} perfil={`${handlePerfil}`} mensagens={`${handleMessages}`} config={`${handleConfig}`} suporte={`${handleSuporte}`} />
             </div>
             <div className='social-media'>
                 <a href="http://localhost:3000/explore">

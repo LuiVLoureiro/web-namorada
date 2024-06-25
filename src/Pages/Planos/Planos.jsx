@@ -9,7 +9,7 @@ const Planos = () => {
     return (
         <div className='explore_client'>
             <div className='explore_left_client'>
-                <SideBar />
+                <SideBar handlePlanos='active_planos' />
             </div>
             <div className='explore_right_client'>
                 <div className='planos'>

@@ -10,7 +10,7 @@ const SuportePage = () => {
     return (
         <div className='explore_client'>
             <div className='explore_left_client'>
-                <SideBar />
+                <SideBar handleSuporte='active_suporte' />
             </div>
             <div className='explore_right_client'>
                 <div className='suporte_card_area'>

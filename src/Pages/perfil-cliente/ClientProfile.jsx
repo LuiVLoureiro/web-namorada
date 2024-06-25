@@ -13,7 +13,7 @@ const ClientProfile = () => {
   return (
     <div className='explore_client'>
       <div className='explore_left_client'>
-        <SideBar />
+        <SideBar handlePerfil='active_perfil' />
       </div>
       <div className='explore_right_client'>
         <div className='profile_wrapper'>

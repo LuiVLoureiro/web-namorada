@@ -10,7 +10,7 @@ const Explore = () => {
   return (
     <div className='explore'>
         <div className='explore_left'>
-          <SideBar />
+          <SideBar handleModelos='active_modelos' />
         </div>
         <div className='explore_right'>
           <div className='explore_header'>

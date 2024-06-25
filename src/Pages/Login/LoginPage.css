@@ -138,7 +138,7 @@
 .login_side_background {
     width: 50%;
     background-image: url("../../images/login_background.jpg");
-    background-position: top;
+    background-position: center;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     opacity: 25%;

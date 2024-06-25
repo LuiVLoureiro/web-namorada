@@ -10,7 +10,7 @@ const ChatPage = () => {
   return (
     <div className='explore_client'>
       <div className='explore_left_client'>
-        <SideBar />
+        <SideBar handleMessages='active_mensagens' />
       </div>
       <div className='explore_right_client'>
         <div className='chat_wrapper'>

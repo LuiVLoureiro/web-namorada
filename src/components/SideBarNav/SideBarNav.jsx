@@ -2,15 +2,15 @@ import React from 'react'
 
 import './SideBarNav.css'
 
-const SideBarNav = () => {
+const SideBarNav = ({modelos, planos, perfil, mensagens, config, suporte}) => {
   return (
     <div className='navbar'>
-        <a href="/explore/">modelos</a>
-        <a href="/planos/">planos</a>
-        <a href="/perfil-cliente/">perfil</a>
-        <a href="/chat/">mensagens</a>
-        <a href="/configuracao-cliente/">configurações</a>
-        <a href="/suporte/">suporte</a>
+        <a className={`${modelos}`} href="/explore/">modelos</a>
+        <a className={`${planos}`} href="/planos/">planos</a>
+        <a className={`${perfil}`} href="/perfil-cliente/">perfil</a>
+        <a className={`${mensagens}`} href="/chat/">mensagens</a>
+        <a className={`${config}`} href="/configuracao-cliente/">configurações</a>
+        <a className={`${suporte}`} href="/suporte/">suporte</a>
     </div>
   )
 }

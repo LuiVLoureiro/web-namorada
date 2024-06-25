@@ -1,3 +1,37 @@
+.active_modelos {
+    background-color: #FFC107;
+    color: #292929 !important;
+    font-weight: 600 !important;
+}
+
+.active_planos {
+    background-color: #FFC107;
+    color: #292929 !important;
+    font-weight: 600 !important;
+}
+
+.active_perfil {
+    background-color: #FFC107;
+    color: #292929 !important;
+    font-weight: 600 !important;
+}
+
+.active_mensagens {
+    background-color: #FFC107;
+    color: #292929 !important;
+    font-weight: 600 !important;
+}
+.active_config {
+    background-color: #FFC107;
+    color: #292929 !important;
+    font-weight: 600 !important;
+}
+.active_suporte {
+    background-color: #FFC107;
+    color: #292929 !important;
+    font-weight: 600 !important;
+}
+
 .navbar {
     margin-top: 24px;
     width: 95%;

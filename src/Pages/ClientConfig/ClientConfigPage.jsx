@@ -9,7 +9,7 @@ const ClientConfigPage = () => {
     return (
         <div className='explore_client'>
             <div className='explore_left_client'>
-                <SideBar />
+                <SideBar handleConfig='active_config' />
             </div>
             <div className='explore_right_client'>
                 <div className='config_card'>
