@@ -2,8 +2,10 @@
     margin-top: 25px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 0 22px;
+    max-width: 900px;
+    width: 100%;
 }
 
 .client_message_wrapper img {
@@ -20,11 +22,7 @@
 .client_img_wrapper svg {
     position: absolute;
     left: 15px;
-    color: #14FF2C;
-}
-
-.client_message {
-    position: relative;
+    color: #00c914;
 }
 
 .client_message {
@@ -33,6 +31,8 @@
     background-color: #FFC107;
     padding: 16px 22px;
     border-radius: 15px;
+    margin-left: 60px; /* Ajuste para alinhar com o avatar */
+    font-family: 'Open Sans', sans-serif;
 }
 
 .client_message span {
